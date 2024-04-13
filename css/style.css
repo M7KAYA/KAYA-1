@@ -722,7 +722,7 @@ body {
     border-radius: 5px;
     position: relative;
     transition: var(--main-trasition-duration);
-    overflow: hidden;
+/*     overflow: hidden; */
 }
 .features .container .content .box:first-child .info a {
     color: #f44336;
@@ -738,7 +738,7 @@ body {
 }
 .features .container .content .box .info a::before {
     content: "";
-    width: 0;
+    width: 100%;
     height: 100%;
     position: absolute;
     z-index: -1;
@@ -756,8 +756,8 @@ body {
     background-color: #03a9f4;
 }
 .features .container .content .box:hover .info a::before {
-    width: 110%;
-    height: 110%
+    width: 200%;
+    height: 200%
 }
 .features .container .content .box:hover .info a {
     color: white;
