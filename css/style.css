@@ -743,9 +743,8 @@ body {
     height: calc(100% + 30px);
     position: absolute;
     z-index: -1;
-    top: 50%;
-    transform: translateY(-50%);
-    left: -15px;
+    top: 0;
+    left: 0;
     transition: var(--main-trasition-duration);
 }
 .features .container .content .box:first-child .info a::before {
@@ -758,7 +757,7 @@ body {
     background-color: #03a9f4;
 }
 .features .container .content .box:hover .info a::before {
-    width: calc(100% + 30px);
+    width: 100%;
 }
 .features .container .content .box:hover .info a {
     color: white;
@@ -1459,18 +1458,17 @@ body {
 }
 .price .container .content .box .lower a::before {
     content: '';
-    width: 0%;
-    height: 200%;
+    width: 0;
+    height: 100%;
     position: absolute;
-    top: 50%;
-    right: -15px;
-    transform: translateY(-50%);
+    top: 0;
+    right: -0;
     background-color: var(--main-color);
     transition: var(--main-trasition-duration);
     z-index: -1;
 }
 .price .container .content .box a:hover::before {
-    width: calc(100% + 30px);
+    width: 100%;
 }
 /** End Price */
 /** Start Videos */
