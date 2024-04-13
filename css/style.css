@@ -1,10 +1,9 @@
 /** Start Variables */
 :root {
-    /* --main-color: #2196f3; */
-    /* --main-color: #2196f3; */
-    --main-color: #9c27b0;
-    /* --secondary-color: #03a9f4; */
-    --secondary-color: #5f0c6d;
+    --main-color: #2196f3;
+    --secondary-color: #03a9f4;
+/*     --main-color: #9c27b0; */
+/*     --secondary-color: #5f0c6d; */
     --background-color: #ececec;
     --hover-color: #ececec47;
     --text-color: #777;
