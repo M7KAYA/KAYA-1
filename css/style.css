@@ -1449,6 +1449,7 @@ body {
     border-radius: 5px;
     font-weight: 700;
     position: relative;
+    overflow: hidden;
 }
 .price .container .content .box a:hover {
     color: white;
@@ -1465,7 +1466,7 @@ body {
     z-index: -1;
 }
 .price .container .content .box a:hover::before {
-    width: 100%;
+    width: 120%;
 }
 /** End Price */
 /** Start Videos */
