@@ -1,11 +1,11 @@
 /** Start Variables */
 :root {
-    --main-color: #2196f3;
+/*     --main-color: #2196f3;
     --secondary-color: #03a9f4;
-    --discount-background-color: rgb(33 150 243 / 98%);
-    /* --main-color: #9c27b0; */
-    /* --secondary-color: #5f0c6d; */
-    /* --discount-background-color: rgb(156 39 176 / 98%); */
+    --discount-background-color: rgb(33 150 243 / 98%); */
+    --main-color: #9c27b0;
+    --secondary-color: #5f0c6d;
+    --discount-background-color: rgb(156 39 176 / 98%);
     --background-color: #ececec;
     --hover-color: #ececec47;
     --text-color: #777;
@@ -740,7 +740,7 @@ body {
 .features .container .content .box .info a::before {
     content: "";
     width: 0;
-    height: calc(100% + 100px);
+    height: calc(100% + 200px);
     position: absolute;
     z-index: -1;
     top: 50%;
@@ -1460,7 +1460,7 @@ body {
 .price .container .content .box .lower a::before {
     content: '';
     width: 0%;
-    height: calc(100% + 50px);
+    height: calc(100% + 200px);
     position: absolute;
     top: 50%;
     right: -15px;
