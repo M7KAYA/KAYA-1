@@ -722,6 +722,7 @@ body {
     border-radius: 5px;
     position: relative;
     transition: var(--main-trasition-duration);
+    overflow: hidden;
 }
 .features .container .content .box:first-child .info a {
     color: #f44336;
@@ -741,8 +742,8 @@ body {
     height: 100%;
     position: absolute;
     z-index: -1;
-    top: 0;
-    left: 0;
+    top: -5px;
+    left: -5px;
     transition: var(--main-trasition-duration);
 }
 .features .container .content .box:first-child .info a::before {
@@ -755,7 +756,8 @@ body {
     background-color: #03a9f4;
 }
 .features .container .content .box:hover .info a::before {
-    width: 100%;
+    width: 110%;
+    height: 110%
 }
 .features .container .content .box:hover .info a {
     color: white;
@@ -1459,14 +1461,15 @@ body {
     width: 0;
     height: 100%;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -5px;
+    right: -5px;
     background-color: var(--main-color);
     transition: var(--main-trasition-duration);
     z-index: -1;
 }
 .price .container .content .box a:hover::before {
-    width: 120%;
+    width: 110%;
+    height: 110%
 }
 /** End Price */
 /** Start Videos */
